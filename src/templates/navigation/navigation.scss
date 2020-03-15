@@ -1,0 +1,25 @@
+.navigation {
+  position: sticky;
+  top: 0;
+  padding: 25px 0 40px;
+  background-color: $white;
+}
+
+.navigation__list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.navigation__link {
+  margin-right: 50px;
+  font-weight: bold;
+  font-size: 18px;
+  color: $black;
+  &:last-child {
+    margin-right: 0;
+  }
+  &:hover {
+    color: $main;
+  }
+}
