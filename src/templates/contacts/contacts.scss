@@ -1,0 +1,64 @@
+.contacts {
+  padding: 60px 0 150px;
+  background-color: #ececea;
+  .container {
+    position: relative;
+  }
+}
+
+.contacts__grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-column-gap: 70px;
+  grid-row-gap: 20px;
+}
+
+.contacts__grid_item {
+  &.df {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  img {
+    max-width: none;
+    max-height: none;
+  }
+}
+
+.contacts__label {
+  margin-bottom: 5px;
+  font-size: 19px;
+}
+
+.contacts__text {
+  font-size: 17px;
+}
+
+.contacts__tel {
+  position: relative;
+}
+
+.contacts__tel_link {
+  font-weight: bold;
+  font-size: 30px;
+  color: $main;
+}
+
+.contacts__whatsapp {
+  position: absolute;
+  top: 50%;
+  left: 280px;
+  transform: translateY(-50%);
+}
+
+.contacts__mail {
+  font-size: 26px;
+  color: #33a1e6;
+  text-decoration: underline;
+}
+
+.contacts__form {
+  position: absolute;
+  bottom: -100px;
+  right: 20px;
+}
