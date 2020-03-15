@@ -1,0 +1,20 @@
+.section-1 {
+  padding: 35px 0 30px;
+  background-image: url(../../assets/img/bg/section-1.jpg);
+  background-position: center bottom;
+  background-size: cover;
+}
+
+.section-1__grid {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-gap: 50px;
+  align-items: end;
+}
+
+.section-1__title {
+  margin-bottom: 1em;
+  font-weight: bold;
+  font-size: 26px;
+  color: $white;
+}
