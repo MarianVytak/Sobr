@@ -16,5 +16,18 @@ $(function () {
     });
 
 
+    // Modal
+    $('.btn-modal-call').on('click', function (e) {
+        e.preventDefault();
+        $('html, body').addClass('modal-active');
+        $('.modal-call').fadeIn();
+    });
+    $('.modal-close').on('click', function (e) {
+        e.preventDefault();
+        $('html, body').removeClass('modal-active');
+        $('.modal-call').fadeOut();
+    });
+
+
 
 });
